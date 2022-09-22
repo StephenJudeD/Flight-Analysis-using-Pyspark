@@ -28,3 +28,9 @@ Notebook 1: Exploratory Data Anlysis to gain and understanding of the data – u
 
 Notebook 2: Machine Learning using Random Forrest  & Machine Learning using Logistic regression Model
 
+The Random Forrest Classification gave me 79% accuracy, and test error 20%. I believe with time I could have increased this number, or possibly looked at a different classification tool such as binary – which I think would have been cleaner and more concise. I used the model to predict Distance and Airtime based on Carrier – with the features being our categorical columns Origin, Destination and Carrier.
+
+The Logistical Regression Model scored a little better – focusing on a more binary prediction on Cancellations based on state. I thought about removing this model asit didn’t quite turn out as I planned but left it there simply to show the process.
+
+In relation to both models, I used this the same encoding and Indexing process as taken from the databricks official website, and then the same vector assembler to combine all the feature columns into a single vector. The pipeline methodology was the same also, the output was then used to feed the algorithm.
+
